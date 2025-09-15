@@ -79,4 +79,5 @@ def delete(a):
     conn.commit()
     return redirect(url_for('view'))
 if __name__=="__main__":
+
     app.run(debug=True)
